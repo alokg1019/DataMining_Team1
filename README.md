@@ -1,16 +1,35 @@
-Data: Data is present in the `data` folder
-    CES :  output2.csv, ces_hybrid.csv
-    Retail Data : Online_Retail.xlsx, filtered.csv
-All the jupyter notebooks are present in the root folder. 
+# Data
+All data is present in the `data` folder <br>
 
-For the Dataset for CES:
+####Online Retail Data
+`online_retail_II.xlsx` : UCI retail dataset <br>
+`filtered_data.csv` :  Processed Online Retail dataset
 
-1. Run Data_Transformation.ipynb with ces_hybrid,csv
-2. Run Preprocessing_CES.ipynb with output2.csv
-3. Run Association Analysis_CES.ipynb with output2.csv
+####CES data - Consumer Expenditure Survey
+`ces_hybrid.csv` : Original CES dataset <br>
+`ces_hybrid_frequency_table.xls` : Frequency dataset <br>
+`preprocessed_ces_hybrid` : Processed CES dataset
+    
+<hr>
 
-For the Ecommerse Dataset
+All the jupyter notebooks are present in the root folder. <br> 
 
-1. Run EDA_Retail.ipynb with Online_Retail.xlsx
-2. Run Online_Retail_Preprocessing with  Online_Retail.xlsx
-3. Run Association_Analysis.ecommerce with filtered.csv
+IMP: Please update the file paths in the jupyter scripts with respect to the local or Online environment before running the code.
+
+<hr>
+
+Jupyter notes books for the E-commerce Dataset (Online Retail):
+
+1. `EDA_Customer_Segmentation_OnlineRetail` : EDA Analysis of Online Retail Data
+2. `Preprocessing_OnlineRetail` : Preprocessing Online Retail Data. This will generate an output file called `filtered_data.csv` which will be used by the below scripts.
+3. `Association_Analysis_OnlineRetail` : Association analysis for Online Retail 
+4. `Two_step_clustering_OnlineRetail` : Two step clustering analysis
+
+Jupyter notes books for the CES Dataset:
+
+1. `Data_Transformation_CES` : Transform the CES data format and save to new file  `preprocessed_ces_hybrid.csv`
+2. `EDA_CES` : EDA for CES data
+3. `Association_Analysis_CES` : Association analysis for CES data
+
+
+`NthItemPrediction` : Nth item prediction for Online retail and CES data
