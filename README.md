@@ -1,11 +1,11 @@
 # Data
 All data is present in the `data` folder <br>
 
-####Online Retail Data
+**Online Retail Data** <br>
 `online_retail_II.xlsx` : UCI retail dataset <br>
 `filtered_data.csv` :  Processed Online Retail dataset
 
-####CES data - Consumer Expenditure Survey
+**CES data - Consumer Expenditure Survey** <br>
 `ces_hybrid.csv` : Original CES dataset <br>
 `ces_hybrid_frequency_table.xls` : Frequency dataset <br>
 `preprocessed_ces_hybrid` : Processed CES dataset
